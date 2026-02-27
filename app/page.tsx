@@ -8,7 +8,7 @@ export default function Home() {
         <img
           src="/logo.png"
           alt="S&S Junk Removal Logo"
-          className="h-40 mb-6 mx-auto"
+          className="h-40 md:h-48 mb-6 mx-auto"
         />
 
         <h1 className="text-5xl font-bold mb-4">
