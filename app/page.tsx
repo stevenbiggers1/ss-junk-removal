@@ -11,21 +11,33 @@ export default function Home() {
           Fast • Affordable • Reliable Junk Removal in Marrero & Surrounding Areas
         </p>
 
-        <div className="flex justify-center gap-4 flex-wrap">
-          <a
-            href="tel:15046767292"
-            className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold"
-          >
-            📞 Call Now
-          </a>
+       <div className="flex flex-col items-center gap-4 mt-6">
 
-          <a
-            href="sms:15046767292"
-            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold"
-          >
-            💬 Text Us
-          </a>
-        </div>
+  {/* Phone Number Display */}
+  <p className="text-xl font-semibold">
+    Call or Text: (504) 676-7292
+  </p>
+
+  <div className="flex gap-4">
+
+    {/* Call Button */}
+    <a
+      href="tel:15046767292"
+      className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg text-lg font-semibold transition"
+    >
+      📞 Call (504) 676-7292
+    </a>
+
+    {/* Text Button */}
+    <a
+      href="sms:15046767292"
+      className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold transition"
+    >
+      💬 Text (504) 676-7292
+    </a>
+
+  </div>
+</div>
       </section>
 
       {/* SERVICES */}
