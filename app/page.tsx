@@ -65,6 +65,14 @@ export default function Home() {
             <p className="mt-2">
               No hidden fees. No surprise charges. You approve the price before we haul.
             </p>
+          <div className="mt-6 text-center">
+  <h4 className="text-xl font-semibold mb-3">Proudly Serving:</h4>
+  <p className="text-lg">
+    Marrero • Westwego • Harvey • Gretna • Terrytown •
+    New Orleans • Metairie • Kenner • Laplace •
+    Jefferson Parish & Surrounding Areas
+  </p>
+</div>
           </div>
 
         </div>
