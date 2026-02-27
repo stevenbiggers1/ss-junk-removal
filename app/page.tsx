@@ -60,7 +60,7 @@ export default function Home() {
           <div className="bg-slate-700 p-6 rounded-xl">
             <h3 className="text-2xl font-semibold mb-2">Priced by Volume</h3>
             <p>
-              Final pricing is based on how much space your items take up in the truck.
+              Final pricing is based on how much space your items take up in the trailer.
             </p>
             <p className="mt-2">
               No hidden fees. No surprise charges. You approve the price before we haul.
