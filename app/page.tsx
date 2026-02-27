@@ -1,74 +1,104 @@
 export default function Home() {
   return (
-    <main style={{ fontFamily: "Arial, sans-serif", padding: "0", margin: "0" }}>
-      
-      {/* HERO SECTION */}
-      <section style={{
-        backgroundColor: "#111",
-        color: "white",
-        padding: "80px 20px",
-        textAlign: "center"
-      }}>
-        <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>
-          SS Junk Removal
+    <main className="min-h-screen bg-white text-gray-900">
+
+      {/* HERO */}
+      <section className="bg-gradient-to-r from-gray-900 to-gray-700 text-white py-20 text-center px-6">
+        <h1 className="text-5xl font-bold mb-4">
+          S&S Junk Removal Services
         </h1>
-        <p style={{ fontSize: "20px", marginBottom: "30px" }}>
-          Fast • Affordable • Reliable Junk Removal
+        <p className="text-xl mb-6">
+          Fast • Affordable • Reliable Junk Removal in Marrero & Surrounding Areas
         </p>
-        <a
-          href="tel:504-123-4567"
-          style={{
-            backgroundColor: "#00b894",
-            color: "white",
-            padding: "15px 30px",
-            textDecoration: "none",
-            fontSize: "18px",
-            borderRadius: "8px"
-          }}
-        >
-          Call Now
-        </a>
+
+        <div className="flex justify-center gap-4 flex-wrap">
+          <a
+            href="tel:15046767292"
+            className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold"
+          >
+            📞 Call Now
+          </a>
+
+          <a
+            href="sms:15046767292"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold"
+          >
+            💬 Text Us
+          </a>
+        </div>
       </section>
 
-      {/* SERVICES SECTION */}
-      <section style={{ padding: "60px 20px", textAlign: "center" }}>
-        <h2 style={{ fontSize: "32px", marginBottom: "40px" }}>
+      {/* SERVICES */}
+      <section className="py-16 px-6 text-center">
+        <h2 className="text-3xl font-bold mb-8">
           Our Services
         </h2>
 
-        <div style={{ maxWidth: "900px", margin: "0 auto", fontSize: "18px", lineHeight: "1.8" }}>
+        <div className="max-w-3xl mx-auto space-y-3 text-lg">
           <p>✔ Furniture Removal</p>
           <p>✔ Appliance Removal</p>
-          <p>✔ Yard Debris Cleanup</p>
-          <p>✔ Garage & House Cleanouts</p>
+          <p>✔ Garage Cleanouts</p>
+          <p>✔ Estate Cleanouts</p>
+          <p>✔ Yard Debris Removal</p>
           <p>✔ Construction Debris</p>
         </div>
       </section>
 
-      {/* ABOUT SECTION */}
-      <section style={{
-        backgroundColor: "#f4f4f4",
-        padding: "60px 20px",
-        textAlign: "center"
-      }}>
-        <h2 style={{ fontSize: "32px", marginBottom: "20px" }}>
+      {/* PRICING */}
+      <section className="bg-gray-100 py-16 px-6 text-center">
+        <h2 className="text-3xl font-bold mb-6">
+          Transparent Pricing
+        </h2>
+
+        <div className="max-w-3xl mx-auto text-lg space-y-4">
+          <p className="text-2xl font-bold text-gray-900">
+            $100 Minimum Service Fee
+          </p>
+
+          <p>
+            All jobs begin with a $100 call-out fee. This covers travel, labor, and disposal setup.
+          </p>
+
+          <p>
+            Final pricing is based on the amount of space your items take up in our truck.
+            We provide an upfront quote on-site before any work begins.
+          </p>
+
+          <p className="font-semibold">
+            No hidden fees. No surprises. Pay only for the space you use.
+          </p>
+        </div>
+      </section>
+
+      {/* WHY CHOOSE US */}
+      <section className="py-16 px-6 text-center">
+        <h2 className="text-3xl font-bold mb-8">
           Why Choose Us?
         </h2>
-        <p style={{ maxWidth: "800px", margin: "0 auto", fontSize: "18px", lineHeight: "1.8" }}>
-          We are a locally owned junk removal company dedicated to helping homeowners 
-          and businesses clear unwanted items quickly and affordably. 
-          Same-day service available!
+
+        <div className="max-w-3xl mx-auto space-y-4 text-lg">
+          <p>✔ Same-Day & Next-Day Service Available</p>
+          <p>✔ Professional & Friendly Crew</p>
+          <p>✔ Upfront Quotes Before We Start</p>
+          <p>✔ Locally Owned & Operated</p>
+        </div>
+      </section>
+
+      {/* SERVICE AREAS */}
+      <section className="bg-gray-100 py-16 px-6 text-center">
+        <h2 className="text-3xl font-bold mb-6">
+          Areas We Serve
+        </h2>
+
+        <p className="text-lg">
+          Marrero • Harvey • Gretna • Westwego • Metairie • New Orleans • Kenner • Slidell
         </p>
       </section>
 
       {/* FOOTER */}
-      <footer style={{
-        backgroundColor: "#111",
-        color: "white",
-        textAlign: "center",
-        padding: "20px"
-      }}>
-        <p>© {new Date().getFullYear()} SS Junk Removal. All rights reserved.</p>
+      <footer className="bg-gray-900 text-white py-8 text-center">
+        <p>© {new Date().getFullYear()} S&S Junk Removal Services</p>
+        <p>Marrero, Louisiana</p>
       </footer>
 
     </main>
