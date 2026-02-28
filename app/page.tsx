@@ -76,7 +76,16 @@ export default function Home() {
           </div>
 
         </div>
-
+<div className="mt-10 text-center">
+  <a
+    href="https://calendar.app.google/4wXkdU5aXjttvXtS6"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-green-600 text-white px-10 py-4 rounded-xl text-xl font-bold hover:bg-green-700 transition duration-300"
+  >
+    Book Free Quote
+  </a>
+</div>
       </section>
 
       {/* FOOTER */}
