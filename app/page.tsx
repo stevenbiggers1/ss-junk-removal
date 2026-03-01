@@ -1,3 +1,5 @@
+"use client";
+import { useRef, useEffect } from "react";
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-900 text-white">
@@ -87,6 +89,43 @@ export default function Home() {
   </a>
 </div>
       </section>
+
+{/* BEFORE & AFTER SECTION */}
+<section className="py-20 px-6 bg-slate-800">
+  <h2 className="text-4xl font-bold text-center mb-12">
+    Before & After Results
+  </h2>
+
+  <div className="overflow-hidden relative">
+    <div className="flex gap-6 animate-scroll whitespace-nowrap">
+
+      <div className="min-w-[300px] bg-slate-700 p-4 rounded-xl">
+        <div className="h-48 bg-slate-600 rounded-lg flex items-center justify-center">
+          <span className="text-gray-300">Before Photo</span>
+        </div>
+      </div>
+
+      <div className="min-w-[300px] bg-slate-700 p-4 rounded-xl">
+        <div className="h-48 bg-slate-600 rounded-lg flex items-center justify-center">
+          <span className="text-gray-300">After Photo</span>
+        </div>
+      </div>
+
+      <div className="min-w-[300px] bg-slate-700 p-4 rounded-xl">
+        <div className="h-48 bg-slate-600 rounded-lg flex items-center justify-center">
+          <span className="text-gray-300">Before Photo</span>
+        </div>
+      </div>
+
+      <div className="min-w-[300px] bg-slate-700 p-4 rounded-xl">
+        <div className="h-48 bg-slate-600 rounded-lg flex items-center justify-center">
+          <span className="text-gray-300">After Photo</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* FOOTER */}
       <footer className="text-center py-6 bg-slate-900 text-sm">
